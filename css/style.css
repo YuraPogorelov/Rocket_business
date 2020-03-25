@@ -74,3 +74,76 @@ input#search {
 .icon2 {
   padding-left: 320px;
 }
+.tel {
+  text-align: center;
+}
+.tel-1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.tel-2 {
+  font-size: 14px;
+  color: #434343;
+}
+
+.containe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containe img {
+  width: 35px;
+  margin-left: 10px;
+}
+.containe span {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+.containe__reting {
+  width: 100px;
+}
+.containe__reting span {
+  opacity: 0.5;
+}
+.containe__like {
+  width: 100px;
+}
+
+.containe__basket {
+  width: 100px;
+}
+.header__bootom {
+  display: flex;
+  height: 53px;
+}
+.header__bootom-menu {
+  display: flex;
+}
+.header__bootom-menu__list {
+  display: flex;
+  font-weight: 700;
+}
+
+.header__bootom-menu__list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #bfbfbf;
+  padding: 20px 16px;
+}
+
+.header__bootom-menu__list li a {
+  display: flex;
+  justify-content: center;
+  color: #2a2a2a;
+}
+.breadcrumbs{
+  display: flex;
+  height: 45px;
+  align-items: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
