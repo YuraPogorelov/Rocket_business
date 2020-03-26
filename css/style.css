@@ -159,8 +159,8 @@ input#search {
 
 .content__title h1 {
   font-size: 28px;
-  font-family: 'Proxima Nova', sans-serif;
-  src: url(./fonts/Proxima-Nova-Cond-Bold.ttf);
+  font-family: 'Proxima Nova';
+  src: url('../fonts/Proxima-Nova-Cond-Bold.ttf');
   margin-top: 85px;
 }
 
@@ -223,4 +223,56 @@ input#search {
 
 .content__content-text .text p{
   opacity: 0.5;
+}
+
+footer{
+  background-color: #dfe1e9;
+}
+
+.footer{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  height: 170px;
+  align-items: center;
+}
+
+.contact p.teli{
+  font-weight: 700;
+}
+
+.contact a.cont{
+  color: #db055b;
+  text-decoration: underline;
+}
+
+.footer__menu--list{
+  display: flex;
+  margin-bottom: 15px;
+  
+}
+
+.footer__menu--list-left{
+  margin-right: 50px;
+}
+
+.footer__menu--list-left a {
+  text-decoration: underline;
+  color: #2a2a2a;
+}
+
+.footer__menu--list-right a {
+  text-decoration: underline;
+  color: #2a2a2a;
+}
+.footer__menu--text a {
+  text-decoration: underline;
+  color: #2a2a2a;
+}
+.rocket{
+  text-align: right;
+}
+.rocket__text {
+  width: 150px;
+  
 }
