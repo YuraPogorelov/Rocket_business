@@ -141,9 +141,86 @@ input#search {
   justify-content: center;
   color: #2a2a2a;
 }
-.breadcrumbs{
+
+.header__bootom-menu__list li.stock {
+  background-color: #db055b;
+}
+
+.header__bootom-menu__list li.stock a {
+  color: #fff;
+}
+
+.breadcrumbs {
   display: flex;
   height: 45px;
   align-items: center;
   font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.content__title h1 {
+  font-size: 28px;
+  font-family: 'Proxima Nova', sans-serif;
+  src: url(./fonts/Proxima-Nova-Cond-Bold.ttf);
+  margin-top: 85px;
+}
+
+.content__pagination {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  margin: 30px 10px;
+}
+
+.content__pagination a {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #bfbfbf;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #616167;
+}
+
+.content__pagination a.active {
+  background-color: #db055b;
+  border: none;
+  color: #fff;
+}
+
+.content__pagination a.tire {
+  border: none;
+}
+
+.content__content {
+  display: flex;
+  justify-content: space-between ;
+}
+
+.content__content-items {
+  display: flex;
+  width: 600px;
+  margin: 20px 0 20px 0;
+  justify-content: space-around;
+}
+
+.content__content-text{
+  margin-left: 20px;
+  width: 288px;
+}
+
+.content__content-text .title{
+  margin-bottom: 10px;
+}
+
+.content__content-text .title h2{
+  font-size: 18px;
+  font-weight: 700;
+  
+}
+
+.content__content-text .text p{
+  opacity: 0.5;
 }
